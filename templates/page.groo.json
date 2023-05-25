@@ -1,14 +1,26 @@
 {
-  "sections": {
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+    "sections": {
+      "section-hero":{
+        "type": "section-hero"
+      },
+      "section-inspiring":{
+        "type": "section-inspiring"
+      },
+      "section-meet":{
+        "type": "section-meet"
+      },
+      "section-subscribe":{
+        "type": "section-subscribe"
+      },
+      "section-start":{
+        "type": "section-start"
       }
-    }
-  },
-  "order": [
-    "main"
-  ]
-}
+    },
+    "order": [
+      "section-hero",
+      "section-inspiring",
+      "section-meet",
+      "section-subscribe",
+      "section-start"
+    ]
+  }
